@@ -20,7 +20,7 @@ Route::get('/dashboard', function()
 {
 	return 'Si ve esto es porque tiene permiso';
 	
-})->middleware(['permission:dashboard.index']);
+})->middleware(['permission:dashboard']);
 
 Auth::routes();
 
